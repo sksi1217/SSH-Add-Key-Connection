@@ -4,7 +4,7 @@
  
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
  
-Если ed25519 не поддерживается, можете использовать rsa ключ:
+Если `ed25519` не поддерживается, можете использовать `rsa` ключ:
  
 `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
  
